@@ -25,9 +25,9 @@ export const Header:React.FC<Props> = ({pageWidth}) => {
                     {!navMenu ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-xmark"></i>}</button>
                 <nav className={`header-menu ${navMenu ? 'open' : ''}`}>
                     <ul>
-                        <li onClick={navMenu ? handleNavMenu : null}><a href="#about-us">O nas</a></li>
-                        <li onClick={navMenu ? handleNavMenu : null}><a href="#offer">Oferta</a></li>
-                        <li onClick={navMenu ? handleNavMenu : null}><a href="#opinion">Opinie</a></li>
+                        <li onClick={navMenu ? handleNavMenu : undefined}><a href="#about-us">O nas</a></li>
+                        <li onClick={navMenu ? handleNavMenu : undefined}><a href="#offer">Oferta</a></li>
+                        <li onClick={navMenu ? handleNavMenu : undefined}><a href="#opinion">Opinie</a></li>
                     </ul>
                 </nav>
 

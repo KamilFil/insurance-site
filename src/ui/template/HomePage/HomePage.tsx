@@ -19,6 +19,24 @@ export function generateMetadata(): Metadata {
     };
 }
 
+const dataOpinion = [
+    {
+        id: 1,
+        name: "Marek L",
+        rating: 2,
+        opinion:
+            "To ubezpieczenie na życie zmieniło moje podejście do planowania przyszłości. Jestem spokojniejszy, wiedząc, że w przypadku niespodziewanych zdarzeń, moja rodzina będzie miała zapewnione wsparcie finansowe.",
+        img: "",
+    },    {
+        id: 1,
+        name: "Marek L",
+        rating: 2,
+        opinion:
+            "To ubezpieczenie na życie zmieniło moje podejście do planowania przyszłości. Jestem spokojniejszy, wiedząc, że w przypadku niespodziewanych zdarzeń, moja rodzina będzie miała zapewnione wsparcie finansowe.",
+        img: "",
+    },
+]
+
 export const HomePage = () => {
     const pageWidth = 1200;
 
@@ -29,7 +47,7 @@ export const HomePage = () => {
             <AboutUsSection pageWidth={pageWidth}></AboutUsSection>
             <OfferSection pageWidth={pageWidth}></OfferSection>
             <CtaSection pageWidth={pageWidth}></CtaSection>
-            <Opinion></Opinion>
+            <Opinion opinions={dataOpinion}></Opinion>
             <SeoSection pageWidth={pageWidth}></SeoSection>
         </main>
         <Footer pageWidth={pageWidth}/>
