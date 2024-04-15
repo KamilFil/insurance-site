@@ -1,4 +1,4 @@
-import {Button} from "@/ui/atoms/Button/Button";
+
 import React from "react";
 import './CardItem.css'
 interface Props {

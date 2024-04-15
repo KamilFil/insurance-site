@@ -16,7 +16,7 @@ export const HeroSection:React.FC<Props> = ({pageWidth}) => {
             <Container size={pageWidth}>
                 <div className="hero-content">
                     <h1>InsuraLife</h1>
-                    <p>Chronimy To, Co Najcenniejsze - Twoje Bezpieczeństwo i <br/>Spokój Ducha. Twój Zaufany Partner w Świecie Ubezpieczeń!".</p>
+                    <p>Chronimy To, Co Najcenniejsze - Twoje Bezpieczeństwo i <br/>Spokój Ducha. Twój Zaufany Partner w Świecie Ubezpieczeń!.</p>
                     <Button color={'primary2'} text={"Zobacz ofertę"} link={'#offer'}/>
                 </div>
                 <div></div>

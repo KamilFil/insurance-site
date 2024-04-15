@@ -7,26 +7,9 @@ interface Props {
 }
 
 
-const dataOpinion = [
-    {
-        id: 1,
-        name: "Marek L",
-        rating: 2,
-        opinion:
-            "To ubezpieczenie na życie zmieniło moje podejście do planowania przyszłości. Jestem spokojniejszy, wiedząc, że w przypadku niespodziewanych zdarzeń, moja rodzina będzie miała zapewnione wsparcie finansowe.",
-        img: "",
-    },    {
-        id: 1,
-        name: "Marek L",
-        rating: 2,
-        opinion:
-            "To ubezpieczenie na życie zmieniło moje podejście do planowania przyszłości. Jestem spokojniejszy, wiedząc, że w przypadku niespodziewanych zdarzeń, moja rodzina będzie miała zapewnione wsparcie finansowe.",
-        img: "",
-    },
-]
+
 
 export const Opinion = ({ opinions }: Props) => {
-    opinions = dataOpinion;
   if (!opinions) return null;
 
   return (
