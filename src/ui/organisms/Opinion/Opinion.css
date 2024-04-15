@@ -1,0 +1,17 @@
+.opinion {
+padding: 30px 0 80px;
+}
+
+.opinion-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .opinion {
+        padding: 30px 0;
+    }
+}
+

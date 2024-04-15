@@ -1,0 +1,52 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+main {
+    min-height: 100vh;
+    background-color: rgba(155, 153, 153, 0.07);
+}
+
+p {
+    font-weight: 500;
+    color: #4f4d4d;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li {
+list-style: none;
+}
+
+@media (max-width: 768px) {
+
+
+}

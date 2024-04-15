@@ -1,0 +1,36 @@
+.cta-item {
+    padding: 40px 80px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#266700;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
+.cta-item > * {
+    margin-bottom: 15px;
+}
+
+.cta-item-title {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.cta-item-desc {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .cta {
+        padding: 10px 0 30px;
+    }
+
+    .cta-item {
+        padding: 20px 30px;
+    }
+}
