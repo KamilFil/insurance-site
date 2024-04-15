@@ -1,9 +1,11 @@
 
+import {HomePage} from "@/ui/template/HomePage/HomePage";
 
 export default function Home() {
-  return (
-  <h1>
-  Home
-  </h1>
-  );
+  return(
+  <>
+    <HomePage/>
+  </>)
+
 }
+
