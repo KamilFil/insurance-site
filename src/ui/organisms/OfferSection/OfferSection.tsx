@@ -17,21 +17,21 @@ export const OfferSection:React.FC<Props> = ({pageWidth}) => {
             id:1,
             title: "Ubezpiecz Życie",
             description:"Zabezpiecz przyszłość swoją i bliskich dzięki naszemu elastycznemu ubezpieczeniu na życie, które dostosuje się do każdej sytuacji.",
-            image:"insurance-about.jpg",
+            image:"/offer/ubezpiecz-zycie.jpg",
             link:'tel:00000000'
         },
         {
             id:2,
             title: "Ubezpiecz Dom",
             description:"Chron swój dom przed niespodziewanymi zdarzeniami jak pożar czy włamanie, korzystając z naszej kompleksowej oferty ubezpieczeniowej.",
-            image:"insurance-about.jpg",
+            image:"/offer/ubezpiecz-dom.jpg",
             link:'tel:00000000'
         },
         {
             id:3,
             title: "Ubezpiecz Auto",
             description:"Zapewnij sobie spokój ducha podczas jazdy, wybierając nasze ubezpieczenie samochodowe, które pokrywa kolizje, kradzieże i uszkodzenia.",
-            image:"insurance-about.jpg",
+            image:"/offer/ubezpiecz-auto.jpg",
             link:'tel:00000000'
         },
     ]
