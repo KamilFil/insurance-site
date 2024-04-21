@@ -31,6 +31,10 @@
     color: #ffffff;
 }
 
+footer a {
+    color: white;
+}
+
 @media (max-width: 768px) {
     .footer {
         display: flex;
