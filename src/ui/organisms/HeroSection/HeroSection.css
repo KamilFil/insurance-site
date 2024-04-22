@@ -47,3 +47,10 @@
 .hero-content {
     width: 50%;
 }
+
+@media (max-width: 768px) {
+.hero-content {
+    width: 100%;
+}
+
+}
