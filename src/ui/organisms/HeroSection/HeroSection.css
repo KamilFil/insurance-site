@@ -9,6 +9,13 @@
     color: white;
 }
 
+.hero-content h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+
+}
+
 .hero .container {
     display: flex;
     width: 100%;
@@ -37,8 +44,6 @@
     background: linear-gradient(0.24turn, rgb(12, 77, 12), rgba(11, 58, 11, 0.85), rgba(4, 58, 4, 0.84), rgba(21, 45, 21, 0.46));
 }
 
-@media (max-width: 768px) {
-
-
-
+.hero-content {
+    width: 50%;
 }
